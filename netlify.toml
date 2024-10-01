@@ -1,9 +1,5 @@
-[build]
-  command = "npm run build" # Adjust if your build command is different
-  publish = "build" # Change this to the folder where your build output is located
 
 [[redirects]]
-  from = "/api/*" # This assumes your API is under /api
+  from = "/api/*"          # Optional: Redirect frontend requests to the API
   to = "/.netlify/functions/:splat"
   status = 200
-
