@@ -1,11 +1,12 @@
 [build]
-  command = "npm run build"
-  publish = "build"
+command = "node server.js" # or specify the command that runs server.js
+publish = "." # No need to publish a build folder for a backend
+
 
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  
   status = 200
   force = true
 
