@@ -23,6 +23,8 @@ const PORT = process.env.PORT || 5000;
 // Middleware setup
 app.use(cors());
 app.use(bodyParser.json());
+app.use(cors({ origin: 'https://main--smpfe.netlify.app/' }));
+
 
 // Initialize session and passport
 app.use(session({ secret: 'your-secret', resave: false, saveUninitialized: true }));
