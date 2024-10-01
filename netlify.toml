@@ -1,5 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "build"
 
 [[redirects]]
-  from = "/api/*"          # Optional: Redirect frontend requests to the API
-  to = "/.netlify/functions/:splat"
+  from = "/*"
+  to = "/index.html"
   status = 200
+  force = true
+
