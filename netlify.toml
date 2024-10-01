@@ -1,7 +1,9 @@
 [build]
-  functions = "functions"  # Specify the folder where your serverless functions will go
+  command = "npm run build" # Adjust if your build command is different
+  publish = "build" # Change this to the folder where your build output is located
 
 [[redirects]]
-  from = "/api/*"          # Optional: Redirect frontend requests to the API
+  from = "/api/*" # This assumes your API is under /api
   to = "/.netlify/functions/:splat"
   status = 200
+
