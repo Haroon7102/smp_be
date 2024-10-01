@@ -1,7 +1,5 @@
 [build]
-command = "node server.js" # or specify the command that runs server.js
-publish = "." # No need to publish a build folder for a backend
-
+command = "node server.js"  # Command to run the backend
 
 
 [[redirects]]
