@@ -37,12 +37,12 @@
     }
   ],
   "env": {
-    "FACEBOOK_APP_ID": "@facebook_app_id",
-    "FACEBOOK_APP_SECRET": "@facebook_app_secret",
-    "INSTAGRAM_CLIENT_ID": "@instagram_client_id",
-    "INSTAGRAM_CLIENT_SECRET": "@instagram_client_secret",
-    "GOOGLE_CLIENT_ID": "@google_client_id",
-    "GOOGLE_CLIENT_SECRET": "@google_client_secret",
-    "JWT_SECRET": "@jwt_secret"
+    "FACEBOOK_APP_ID": "1332019044439778",
+    "FACEBOOK_APP_SECRET": "84b1a81f8b8129f43983db4e9692a39a",
+    "INSTAGRAM_CLIENT_ID": "481691351358779",
+    "INSTAGRAM_CLIENT_SECRET": "b9877f3478d67c0d8bc6e26b24ffe3d0",
+    "GOOGLE_CLIENT_ID": "330395361476-4m36c2pmkur4t7koof2ecor468421l44.apps.googleusercontent.com",
+    "GOOGLE_CLIENT_SECRET": "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",
+    "JWT_SECRET": "82ddefea6c50e02c85b93d9addf9da8b73bd62bd728423458ee1685a7b42cdf43f7d095957787be64108685ba4134b043e02fafb6d52a3d935d49344a194c3e0"
   }
 }
