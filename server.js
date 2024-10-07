@@ -11,7 +11,7 @@ const authRoutes = require('./auth/authRoutes');
 const postRoutes = require('./auth/postRoutes'); // Import your post routes
 const { generateCaption } = require('./openai/openaiservice');
 
-
+/// good adition
 const authMiddleware = require('./middleware/middleware');
 require('dotenv').config();
 const { User } = require('./models'); // Adjust the path if necessary
