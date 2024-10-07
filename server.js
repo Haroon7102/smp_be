@@ -21,9 +21,11 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware setup
-app.use(cors());
-app.use(bodyParser.json());
-app.use(cors({ origin: 'https://main--smpfe.netlify.app/' }));
+app.use(cors({
+    origin: 'https://smpfe.netlify.app', // Replace with your actual frontend URL
+    methods: 'GET, POST, PUT, DELETE',
+    credentials: true
+})); app.use(bodyParser.json());
 
 
 // Initialize session and passport
